@@ -15,7 +15,6 @@ function App() {
         serDataUser(data.data)
       });
   }, []);
-  console.log('dataUser',dataUser)
   return (
     <div className="App">
       <header className="App-header">
